@@ -1,1 +1,52 @@
-style.css
+body{
+	background-image: url("../image/bg.jpg");
+	background-position: center;
+	background-size: cover;
+  	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+.align-center{
+	margin-top: 20px;
+	text-align: center;
+}
+
+li{
+	list-style: none;
+}
+
+.row-bg{
+	margin-top:20px;
+	padding-top: 15%;
+	padding-bottom: 15%;
+	border-radius: 20px;
+	opacity: 0.7;
+	background-image: url("../image/bgcol.png");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+#headimg{
+	height: 100px;
+	width: 100px;
+}
+
+.row-head{
+	margin-top: 10px;
+	text-align: center;
+}
+
+.title{
+	margin-top: 30px;
+	color:#FFF;
+	opacity: 0.7;
+}
+
+.empty>*{
+	color: #000;
+}
+
+.textBox{
+	background-color: #E0E0E0;
+	border-radius: 5px;
+}
